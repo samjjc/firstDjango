@@ -15,6 +15,6 @@ def post_detail(request, pk):
 
 def post_new(request):
     form = PostForm()
-    return render(request, 'blog/post_edit.html', {'form': form})
+    return render(request, 'blog/post_edit.html', {'form': form})   
 
     
